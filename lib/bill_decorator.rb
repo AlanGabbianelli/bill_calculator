@@ -8,7 +8,7 @@ class BillDecorator
   end
 
   def split_by(number)
-    # TODO: implement the split_by method
+    bill.split_by(number).map { |amount| style_it(amount) }
   end
 
   private
