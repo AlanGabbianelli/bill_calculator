@@ -4,7 +4,7 @@ class BillDecorator
   end
 
   def total
-    # TODO: implement the total method
+    style_it(bill.total)
   end
 
   def split_by(number)
@@ -12,6 +12,10 @@ class BillDecorator
   end
 
   private
+
+  def style_it(value)
+    "£#{format('%.2f', value)}"
+  end
 
   attr_reader :bill
 end
