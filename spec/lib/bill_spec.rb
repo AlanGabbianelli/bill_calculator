@@ -20,9 +20,13 @@ describe Bill do
   end
 
   describe '#split_by' do
-    xit 'should return an array of amounts' do
-      # Somthing like
-      # expect(subject.split_by(3)).to eq([<an_amount_here>, <an_amount_here>, <an_amount_here>])
+    it 'should return an array of amounts' do
+      expect(subject.split_by(3)).to eq([3, 3, 3])
+    end
+
+    it 'should return an array of amounts, adding the remainder to the last one' do
+      bill3 = Bill.new(subtotal: 9, service_charge: 3, discount: 2)
+      expect(bill3.split_by(3)).to eq([3.33, 3.33, 3.34])
     end
   end
 end
