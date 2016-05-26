@@ -1,6 +1,8 @@
 class Bill
-  def initialize(subtotal:, service_charge: 0, discount: 0)
-    @subtotal, @service_charge, @discount = subtotal, service_charge, discount
+  def initialize(subtotal: 0, service_charge: 0, discount: 0)
+    @subtotal = subtotal
+    @service_charge = service_charge
+    @discount = discount
   end
 
   def total
