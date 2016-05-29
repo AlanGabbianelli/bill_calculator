@@ -1,5 +1,6 @@
 # Bill Calculator
 [![Code Climate](https://codeclimate.com/github/AlanGabbianelli/bill_calculator/badges/gpa.svg)](https://codeclimate.com/github/AlanGabbianelli/bill_calculator)
+[![Issue Count](https://codeclimate.com/github/AlanGabbianelli/bill_calculator/badges/issue_count.svg)](https://codeclimate.com/github/AlanGabbianelli/bill_calculator)
 
 At Cake, we like to have team dinners. After having lots of fun and wanting to go somewhere else
 having even more, we hate having to calculate how much each one have to pay.
