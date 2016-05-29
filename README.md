@@ -1,4 +1,5 @@
 # Bill Calculator
+[![Build Status](https://travis-ci.org/AlanGabbianelli/bill_calculator.svg?branch=master)](https://travis-ci.org/AlanGabbianelli/bill_calculator)
 [![Code Climate](https://codeclimate.com/github/AlanGabbianelli/bill_calculator/badges/gpa.svg)](https://codeclimate.com/github/AlanGabbianelli/bill_calculator)
 [![Issue Count](https://codeclimate.com/github/AlanGabbianelli/bill_calculator/badges/issue_count.svg)](https://codeclimate.com/github/AlanGabbianelli/bill_calculator)
 
